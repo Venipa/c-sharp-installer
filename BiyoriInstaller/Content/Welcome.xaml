@@ -1,0 +1,23 @@
+﻿<Page x:Class="BiyoriInstaller.Content.Welcome"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      mc:Ignorable="d" 
+      d:DesignHeight="453" d:DesignWidth="672"
+      Title="Welcome">
+
+    <Grid Loaded="Grid_Loaded">
+        <Grid Background="#A5FBFBFB" UseLayoutRounding="False" Height="41.337" VerticalAlignment="Bottom"/>
+        <Rectangle Fill="#A82C2F33" HorizontalAlignment="Left" Margin="0,0,-2,41" Width="674" Height="1" VerticalAlignment="Bottom"/>
+        <Button x:Name="next" Content="CANCEL" HorizontalAlignment="Left" Margin="568,0,0,10" Width="94" Height="24" VerticalAlignment="Bottom" Style="{DynamicResource DiscPrimary}" FontSize="11" Click="exit"/>
+        <Button x:Name="next_Copy" Content="NEXT" HorizontalAlignment="Left" Margin="469,0,0,10" Width="94" Height="24" VerticalAlignment="Bottom" Style="{DynamicResource DiscPrimary}" FontSize="11" Click="Button_Click_1"/>
+        <Border BorderThickness="1" HorizontalAlignment="Left" Height="367" VerticalAlignment="Top" Width="652" Margin="10" ClipToBounds="True" Background="#99FFFFFF" BorderBrush="#A82C2F33">
+            <MediaElement x:Name="trailervideo" Margin="0" UnloadedBehavior="Play" Volume="0" Style="{DynamicResource DiscMediaElement}"/>
+        </Border>
+        <Canvas HorizontalAlignment="Left" Height="19" Margin="10,377,0,0" VerticalAlignment="Top" Width="652" Background="#A82C2F33">
+            <Label Content="Music Controls: (M)ute, (N) Stop, (B) Play, Arrow Up/Down = Volume Up/Down" Height="19" Width="623" Padding="5,0" Foreground="#FFCFCFCF" FontSize="11" VerticalContentAlignment="Center" VerticalAlignment="Center"/>
+        </Canvas>
+
+    </Grid>
+</Page>

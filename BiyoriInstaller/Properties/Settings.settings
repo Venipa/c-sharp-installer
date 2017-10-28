@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BiyoriInstaller.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="title" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Biyori Installer</Value>
+    </Setting>
+    <Setting Name="encryptKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">zsU3rWJawenEP1jjCwiV7p6a9FOa6VA1oyPS2kVnYkIXemICvM391nQ5qlKz</Value>
+    </Setting>
+    <Setting Name="gameFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NieR - Automata</Value>
+    </Setting>
+    <Setting Name="Website" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Biyori.moe</Value>
+    </Setting>
+    <Setting Name="dataFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">data</Value>
+    </Setting>
+    <Setting Name="Game" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NieR - Automata</Value>
+    </Setting>
+    <Setting Name="sfvpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">checkfiles.exe</Value>
+    </Setting>
+    <Setting Name="sfvDB" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Biyori.md5</Value>
+    </Setting>
+    <Setting Name="trailer_file" Type="System.String" Scope="User">
+      <Value Profile="(Default)">LLCrzJdF8Z4</Value>
+    </Setting>
+    <Setting Name="yt_embed" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://u.biyori.moe/Wb941K3b.MP4</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
